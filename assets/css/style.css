@@ -1,0 +1,44 @@
+body {
+	font-family: 'Lato';
+}
+
+.panel-heading,
+.topmenu {
+		/*background-color: #D9EDF7 !important; color: #31708F !important; /*-- LIGHT BLUE --*/
+	  /*background-color: #DFF0D8 !important; color: #3C763D !important; /*-- LIGHT GREEN --*/
+		background-color: #FCF8E3 !important; color: #8A6D3B !important; /*-- LIGHT ORANGE --*/
+    /*background-color: #F2DEDE !important; color: #A94442 !important; /*-- LIGHT RED --*/
+}
+
+.btn {
+    /*background-color: #31708F !important; /*-- DEEP BLUE --*/
+    /*background-color: #3C763D !important; /*-- DEEP GREEN --*/
+    background-color: #8A6D3B !important; /*-- DEEP ORANGE --*/
+    /*background-color: #A94442 !important; /*-- DEEP RED --*/
+    transition: all 0.3s ease;
+}
+
+.topmenu {
+	-webkit-box-shadow: 0px 3px 3px rgba(100, 100, 100, 0.5);
+	-moz-box-shadow: 0px 3px 3px rgba(100, 100, 100, 0.5);
+	box-shadow: 0px 3px 3px rgba(100, 100, 100, 0.5);
+}
+
+/*-- WHITE --*/
+.btn-primary,
+.topmenu a:focus,
+.topmenu a:hover {
+    color: #fff !important;
+}
+
+.btn {
+    opacity: 0.75;
+}
+.btn:hover {
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+	border-color: #b6b6b6 !important;
+}
