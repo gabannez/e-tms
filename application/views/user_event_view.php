@@ -52,7 +52,7 @@ $(document).ready(function() {
 	
 	count = $('[name="count"]').val();
 	if(count >= 3) {
-		
+		alert("Over 2 times");
 	}
 });
 
